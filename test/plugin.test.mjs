@@ -46,7 +46,8 @@ const adapted = [
 ];
 const skills = [...adapted, 'apply-conventions', 'inspect-glb',
     'add-effects', 'build-hud', 'light-scene', 'manage-game-state', 'verify-pixels',
-    'reduce-draw-calls', 'override-shader-chunks', 'bake-lighting'].sort();
+    'reduce-draw-calls', 'override-shader-chunks', 'bake-lighting',
+    'reprovera-hero-film'].sort();
 
 test('marketplaces expose the same plugins', () => {
     const names = maps[0].data.plugins.map((entry) => entry.name);
@@ -186,9 +187,9 @@ test('plugin exposes the intended task-oriented skills', () => {
 test('skill metadata is portable and matches its folder', () => {
     for (const skill of skills) {
         const file = resolve('skills', skill, 'SKILL.md');
-        const frontmatter = readFileSync(file, 'utf8').match(/^---\n([\s\S]*?)\n---\n/)?.[1];
+        const frontmatter = readFileSync(file, 'utf8').match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/)?.[1];
         assert.ok(frontmatter, skill);
-        const data = Object.fromEntries(frontmatter.split('\n').map((line) => {
+        const data = Object.fromEntries(frontmatter.split(/\r?\n/).map((line) => {
             const split = line.indexOf(':');
             return [line.slice(0, split), line.slice(split + 1).trim()];
         }));

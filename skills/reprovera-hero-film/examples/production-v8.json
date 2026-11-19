@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "title": "ReproVera production V8 approved 2026-11-18",
+  "fps": 25,
+  "fade_seconds": 1.12,
+  "desktop": {
+    "width": 1280,
+    "height": 720,
+    "crf": 21
+  },
+  "mobile": {
+    "width": 540,
+    "height": 960,
+    "crf": 23
+  },
+  "reference_outputs": {
+    "desktop_sha256": "b60584984d2f8bb083773f237c110d91f3d84827ccfebe9308b9c9340770e302",
+    "mobile_sha256": "bd494ce0da3d33b501227d3c96f87f991cc7971fd9b849a4377da178ef227034",
+    "duration_seconds": 29.12
+  },
+  "scenes": [
+    {
+      "id": "01-lab-woman-microscope",
+      "kind": "prepared",
+      "duration": 4.6,
+      "mobile_crop_x": 585,
+      "prepared_desktop": "graded/shot-01.mp4",
+      "prepared_mobile": "mobilecuts/v8-mobile-shot-01.mp4",
+      "source_sha256": "6e760ff6f700fa840b666564939389ea11648c537f5d57a4c76b16fb7e630a48",
+      "mobile_sha256": "8c15bedb0319aaa66a3fe07a54149527090d20f7587923382f636cd6c1f3fd9f",
+      "rights": {
+        "status": "licensed",
+        "source": "https://www.pexels.com/video/4114800/"
+      }
+    },
+    {
+      "id": "02-IVF-micromanipulator",
+      "kind": "prepared",
+      "duration": 4.4,
+      "mobile_crop_x": 440,
+      "prepared_desktop": "graded/shot-02.mp4",
+      "prepared_mobile": "mobilecuts/v8-mobile-shot-02.mp4",
+      "source_sha256": "f157464da39b900ba27eb4631a6157e6d6c6c6f4222a80b1f8a3f5b718ebb3f2",
+      "mobile_sha256": "6b16efc7d2551a56d2ac5fccda2d404864552b4cc505a030c965c20b94df0402",
+      "rights": {
+        "status": "licensed",
+        "source": "https://www.pexels.com/video/7705313/"
+      }
+    },
+    {
+      "id": "03-embryologist-hands",
+      "kind": "prepared",
+      "duration": 3.9,
+      "mobile_crop_x": 540,
+      "prepared_desktop": "graded/shot-03.mp4",
+      "prepared_mobile": "mobilecuts/v8-mobile-shot-03.mp4",
+      "source_sha256": "c43a890dc89a598428287588f1d485f806e0671996325c85cc0a84bf56267a1d",
+      "mobile_sha256": "f0e9aff6f6a8b0332c68832a42a4da7fd0bc69f3006a7320bba690d14476cfb4",
+      "rights": {
+        "status": "licensed",
+        "source": "https://www.pexels.com/video/7705474/"
+      }
+    },
+    {
+      "id": "04-actual-owner-ICSI",
+      "kind": "prepared",
+      "duration": 6.2,
+      "mobile_crop_x": 170,
+      "prepared_desktop": "cuts/04-user-approved-icsi.mp4",
+      "prepared_mobile": "cuts/04-user-approved-icsi-mobile.mp4",
+      "source_sha256": "4310b16c4fde57eb8b460a579c99032d0ecfe2e8c5317e027b4324087f72143e",
+      "mobile_sha256": "a01a4e0253deef47b2166ff2c08b7ce7d089705fea1f5a742fb9d525a4711a25",
+      "rights": {
+        "status": "owner-approved",
+        "source": "owner-supplied clip authorized for ReproVera, November 2026"
+      }
+    },
+    {
+      "id": "05-embryo-4cell-to-blastocyst",
+      "kind": "prepared",
+      "duration": 7.6,
+      "mobile_crop_x": 433,
+      "prepared_desktop": "graded/shot-05.mp4",
+      "prepared_mobile": "mobilecuts/v8-mobile-shot-05.mp4",
+      "source_sha256": "4c612696f2709cb46fcd5a4dee3887771f5363723ab17e3f90c93b5926b829a1",
+      "mobile_sha256": "a0788e6de46bc961b517816fe88fa840c8da2c961f56a291dc56e6c2e8f898b9",
+      "rights": {
+        "status": "cc-by",
+        "source": "https://doi.org/10.1007/s10815-014-0195-2",
+        "attribution": "K. Iwata et al. (2014); CC BY 4.0; modified (accelerated, cropped, colour graded, edited); on ReproVera Metodika"
+      }
+    },
+    {
+      "id": "06-authentic-2D-ultrasound",
+      "kind": "prepared",
+      "duration": 3.8,
+      "mobile_crop_x": 435,
+      "prepared_desktop": "graded/shot-06.mp4",
+      "prepared_mobile": "mobilecuts/v8-mobile-shot-06.mp4",
+      "source_sha256": "d4bb31e793bbed99ff6d0b892082222e33a4efa22d4638362722a39a58f157f1",
+      "mobile_sha256": "1170a6270aa51e4190c35d1e0ce0d202fb286c7914e034257031ea6be274f429",
+      "rights": {
+        "status": "licensed",
+        "source": "https://www.pexels.com/video/ultrasound-of-a-baby-3099938/"
+      }
+    },
+    {
+      "id": "07-newborn-feet",
+      "kind": "prepared",
+      "duration": 5.3,
+      "mobile_crop_x": 356,
+      "prepared_desktop": "graded/shot-07.mp4",
+      "prepared_mobile": "mobilecuts/v8-mobile-shot-07.mp4",
+      "source_sha256": "4247b79b8c9d480c7a1bd2f4b19089aba65fd417a3cdf10db87c2bf18d3853fc",
+      "mobile_sha256": "a5b660189a2b7687454371d1c6d0752d93322d46cbc6a1e2c39b854b2147afe3",
+      "rights": {
+        "status": "licensed",
+        "source": "https://www.pexels.com/video/29853744/"
+      }
+    }
+  ]
+}

@@ -131,13 +131,18 @@ pinned supported package versions, and Renovate proposes dependency updates.
 | [`reduce-draw-calls`](skills/reduce-draw-calls/SKILL.md) | Measure and cut draw calls with element lifecycle, batching, and instancing. |
 | [`override-shader-chunks`](skills/override-shader-chunks/SKILL.md) | Customize StandardMaterial shading with version-pinned shader chunk overrides. |
 | [`bake-lighting`](skills/bake-lighting/SKILL.md) | Precompute static lighting with the engine Lightmapper or an offline bake. |
+| [`reprovera-hero-film`](skills/reprovera-hero-film/SKILL.md) | Reproduce, recut and safely publish the evidence-based ReproVera IVF cinematic hero (FFmpeg, desktop/mobile, scene rights and production gates). |
 
 Every integration loads the same canonical files from [`skills/`](skills/). Host manifests contain
 distribution metadata only.
 
-PlayCanvas Skills targets Engine application workflows. It does not automate the PlayCanvas Editor,
-create or publish Editor projects, manage cloud services, or replace project-specific art direction
-and gameplay design.
+Most of these skills target PlayCanvas Engine application workflows. The added
+[`reprovera-hero-film`](skills/reprovera-hero-film/SKILL.md) is a separate, domain-specific
+FFmpeg workflow for ReproVera. It ships only instructions, reference settings and scripts —
+**no licensed or personal video media**. The render script never performs production deployment.
+
+These skills do not automate the PlayCanvas Editor, create or publish Editor projects,
+manage cloud services, or replace project-specific art direction and gameplay design.
 
 ## Contributing
 
